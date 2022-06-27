@@ -6,9 +6,9 @@ body{
  margin: 0;   
 color: black;
 }
-nav{
 
-    background-color: white;
+.navbar{
+    background-color: rgb(255, 255, 255);
 }
 .navbar-nav {
     --bs-navbar-color: rgb(0 0 0);
@@ -33,7 +33,7 @@ nav{
     display: flex;
    text-align: center;
    justify-content: center;
-    align-items: baseline;
+    align-items: center;
     height: 62.5em;
  
  
@@ -43,6 +43,7 @@ nav{
  
  text-align: center;
   flex-wrap: wrap;
+  align-items: baseline;
  
  
   
@@ -53,3 +54,68 @@ nav{
     height: 15vh;
      text-align: center;
     }
+    .grid-container {  display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 0.3fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "redes logo-slogan MAPA";
+          text-align: center;
+      }
+      
+      .MAPA { grid-area: MAPA; 
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+    }
+      
+      .logo-slogan { grid-area: logo-slogan;
+    position: relative;
+    
+    font-size: 1.8vh;
+    display: flex;
+    align-items: center;
+    
+    }
+      
+      .redes { grid-area: redes;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    }
+      .grid-container img{
+         
+          display: inline-flex;
+          align-items: baseline;
+          position: relative;
+          justify-content: center;
+          align-items: center;
+          width: 10vh;
+          
+      }
+     
+      
+      button{
+        
+        /* padding: 20px; */
+       border: 1px solid black;
+     box-shadow:  0.125em 0.125em 0.625em ;
+        background-color: rgb(255, 255, 255);
+        
+    }
+    button:hover{
+        background-color: rgba(238, 192, 192, 0.753);
+    }
+   
+   button.btn.btn-outline-success{
+    --bs-btn-color: #000000;
+    --bs-btn-border-color: #000000;
+    --bs-btn-hover-bg: #000000;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+   
+    
