@@ -21,3 +21,35 @@ nav{
     text-align: center;
     padding: 5em;
 }
+.conteiner-top{
+    display: flex;
+    padding: 10em;
+}
+.conteiner-top{
+ display: flex;
+}
+.conteiner{
+
+    display: flex;
+   text-align: center;
+   justify-content: center;
+    align-items: baseline;
+    height: 62.5em;
+ 
+ 
+    }
+    
+    .conteiner > div{
+ 
+ text-align: center;
+  flex-wrap: wrap;
+ 
+ 
+  
+}
+#conteiner__top{
+    width: auto;
+    padding: 8vh;
+    height: 15vh;
+     text-align: center;
+    }
