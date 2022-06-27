@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+ margin: 0;   
+color: black;
+}
+nav{
+
+    background-color: white;
+}
+.navbar-nav {
+    --bs-navbar-color: rgb(0 0 0);
+   
+}
+    
+
+#top-elements{
+    color: black;
+    text-align: center;
+    padding: 5em;
+}
